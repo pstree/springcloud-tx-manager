@@ -3,8 +3,9 @@ LCN分布式事务管理器，协调分布式事务的事务管理，完成三�
 
 ### 使用教程
 1. 启动redis服务，并配置redis.properties配置文件。
-2. 配置application.properties 配置文件。
-3. 启动TxManager，run: TxManagerApplication.main()方法。
+2. 启动springcloud-eureka服务。
+3. 配置application.properties,redis.properties 配置文件。
+4. 启动TxManager run: TxManagerApplication.main()方法。
 
 
 # LCN分布式事务框架的设计原理
