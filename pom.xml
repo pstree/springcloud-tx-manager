@@ -11,6 +11,14 @@
 	<name>tx-manager</name>
 	<description>Demo project for Spring Boot</description>
 
+
+	<repositories>
+		<repository>
+			<id>lorne</id>
+			<url>https://1991wangliang.github.io/repository</url>
+		</repository>
+	</repositories>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
